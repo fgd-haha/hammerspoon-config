@@ -72,30 +72,14 @@ end)
 ------------------------------------------------------------
 -- Window movement 
 ------------------------------------------------------------
-
--- Window <
-hs.hotkey.bind(mash.movement, "h", function()
-    moveCurrentWindow(-100, 0)
-end)
--- Window >
-hs.hotkey.bind(mash.movement, "l", function()
-    moveCurrentWindow(100, 0)
-end)
--- Window ^
-hs.hotkey.bind(mash.movement, "k", function()
-    moveCurrentWindow(0, -100)
-end)
--- Window v
-hs.hotkey.bind(mash.movement, "j", function()
-    moveCurrentWindow(0, 100)
-end)
-
 -- move to next screen
-hs.hotkey.bind(mash.movement, "n", function()
+hs.hotkey.bind(mash.movement, "right", function()
     moveToNextScreen()
 end)
 
--- move to previous screen
-hs.hotkey.bind(mash.movement, "p", function()
-    moveToPreviousScreen()
+hs.hotkey.bind({"ctrl", "alt", "shift"},  "right", function()
+    moveToNextScreen()
+    maximizeCurrentWindow() 
 end)
+
+
