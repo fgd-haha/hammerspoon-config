@@ -10,6 +10,7 @@ hs.fnutils.each({
     { key = "p", app = "PyCharm" },
     { key = "v", app = "Visual Studio Code" },
     { key = "w", app = "WeChat" },
+    { key = "y", app = "NeteaseMusic" },
 }, function(object)
     launchApp(mash.app, object)
 end)

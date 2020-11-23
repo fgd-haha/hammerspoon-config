@@ -36,6 +36,7 @@ Hammerspoon-config comes with a set of default keybindings. See installation for
 | `PyCharm` | <kbd>⌥</kbd> | <kbd>p</kbd> |
 | `Visual Studio Code` | <kbd>⌥</kbd> | <kbd>v</kbd> |
 | `WeChat` | <kbd>⌥</kbd> | <kbd>w</kbd> |
+| `NeteaseMusic` | <kbd>⌥</kbd> | <kbd>y</kbd> |
 
 
 * Window Resize
