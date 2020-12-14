@@ -3,7 +3,7 @@ hs.fnutils.each({
     { key = "`", app = "iTerm" },
     { key = "c", app = "Google Chrome" },
     { key = "d", app = "DataGrip" },
-    { key = "e", app = "Finder" },
+    { key = "e", app = "QSpace" },
     { key = "i", app = "IntelliJ IDEA" },
     { key = "j", app = "Activity Monitor" },
     { key = "m", app = "MindMaster" },
