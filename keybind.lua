@@ -1,13 +1,15 @@
 -- launch and focus applications with below shortkey
 hs.fnutils.each({
     { key = "`", app = "iTerm" },
+    { key = "a", app = "ApiPost" },
     { key = "c", app = "Google Chrome" },
-    { key = "d", app = "DataGrip" },
+    { key = "d", app = "TickTick" },
     { key = "e", app = "QSpace" },
+    { key = "f", app = "Lark" },
+    { key = "g", app = "DataGrip" },
     { key = "i", app = "IntelliJ IDEA" },
-    { key = "j", app = "Activity Monitor" },
-    { key = "m", app = "MindMaster" },
     { key = "p", app = "PyCharm" },
+    { key = "q", app = "QQ体验版" },
     { key = "v", app = "Visual Studio Code" },
     { key = "w", app = "WeChat" },
     { key = "y", app = "NeteaseMusic" },
