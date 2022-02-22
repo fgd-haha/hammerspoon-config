@@ -13,6 +13,7 @@ require("modules/screens")
 require("modules/layout")
 require("modules/mouse")
 require("modules/weather")
+require("modules/network")
 
 require("keybind")
 require("urlbind")
