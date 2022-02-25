@@ -13,7 +13,7 @@ require("modules/screens")
 require("modules/layout")
 require("modules/mouse")
 require("modules/weather")
-require("modules/network")
+hs.loadSpoon("SpeedMenu")
 
 require("keybind")
 require("urlbind")
