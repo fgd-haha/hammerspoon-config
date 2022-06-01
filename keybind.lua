@@ -15,7 +15,7 @@ hs.fnutils.each({
     { key = "q", app = "QQ体验版" },
     { key = "v", app = "Visual Studio Code" },
     { key = "w", app = "WeChat" },
-    { key = "y", app = "NeteaseMusic" },
+    { key = "y", app = "QQMusic" },
 }, function(object)
     launchApp(mash.app, object)
 end)
