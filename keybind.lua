@@ -6,7 +6,7 @@ hs.fnutils.each({
     { key = "d", app = "TickTick" },
     { key = "e", app = "QSpace" },
     { key = "f", app = "Lark" },
-    { key = "g", app = "DataGrip" },
+    { key = "g", app = "GoLand" },
     { key = "i", app = "IntelliJ IDEA" },
     { key = "j", app = "Activity Monitor" },
     { key = "n", app = "Microsoft OneNote" },
@@ -19,6 +19,12 @@ hs.fnutils.each({
     { key = "y", app = "QQMusic" },
 }, function(object)
     launchApp(mash.app, object)
+end)
+
+hs.fnutils.each({
+    { key = "g", app = "DataGrip" },
+}, function(object)
+    launchApp(mash.resize, object)
 end)
 
 ------------------------------------------------------------
