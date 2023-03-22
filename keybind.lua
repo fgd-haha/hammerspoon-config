@@ -1,7 +1,7 @@
 -- launch and focus applications with below shortkey
 hs.fnutils.each({
     { key = "`", app = "iTerm" },
-    { key = "a", app = "ApiPost6" },
+    { key = "a", app = "ApiPost7" },
     { key = "c", app = "Google Chrome" },
     { key = "d", app = "TickTick" },
     { key = "e", app = "QSpace" },
