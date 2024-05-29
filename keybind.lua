@@ -1,12 +1,10 @@
 -- launch and focus applications with below shortkey
 hs.fnutils.each({
     { key = "`", app = "iTerm" },
-    { key = "a", app = "ApiPost7" },
     { key = "c", app = "Google Chrome" },
     { key = "d", app = "TickTick" },
-    { key = "e", app = "QSpace" },
+    { key = "e", app = "Finder" },
     { key = "f", app = "Lark" },
-  --  { key = "g", app = "GoLand" },
     { key = "i", app = "IntelliJ IDEA" },
     { key = "j", app = "Activity Monitor" },
     { key = "n", app = "Microsoft OneNote" },
@@ -23,6 +21,7 @@ end)
 
 hs.fnutils.each({
     { key = "g", app = "DataGrip" },
+    { key = "c", app = "ChatGPT" },
 }, function(object)
     launchApp(mash.resize, object)
 end)
