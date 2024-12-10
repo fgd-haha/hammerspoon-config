@@ -12,7 +12,8 @@ hs.fnutils.each({
     { key = "p", app = "PyCharm" },
     { key = "q", app = "QQ体验版" },
     { key = "s", app = "TwinklingCard" },
-    { key = "v", app = "Visual Studio Code" },
+    -- { key = "v", app = "Visual Studio Code" },
+    { key = "v", app = "Cursor" },
     { key = "w", app = "WeChat" },
     { key = "y", app = "QQMusic" },
 }, function(object)
