@@ -9,7 +9,7 @@ hs.fnutils.each({
     { key = "j", app = "Activity Monitor" },
     { key = "n", app = "Microsoft OneNote" },
     { key = "o", app = "Microsoft Word" },
-    { key = "p", app = "PyCharm" },
+    -- { key = "p", app = "PyCharm" },
     { key = "q", app = "QQ体验版" },
     { key = "s", app = "TwinklingCard" },
     -- { key = "v", app = "Visual Studio Code" },
