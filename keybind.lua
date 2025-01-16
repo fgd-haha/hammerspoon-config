@@ -22,7 +22,7 @@ end)
 
 hs.fnutils.each({
     { key = "g", app = "DataGrip" },
-    { key = "c", app = "ChatGPT" },
+    -- { key = "c", app = "ChatGPT" },
 }, function(object)
     launchApp(mash.resize, object)
 end)
