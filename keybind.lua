@@ -8,6 +8,7 @@ hs.fnutils.each({
     { key = "i", app = "IntelliJ IDEA" },
     { key = "j", app = "Activity Monitor" },
     { key = "k", app = "KeePassXC" },
+    { key = "l", app = "灵犀" },
     { key = "n", app = "Microsoft OneNote" },
     { key = "o", app = "Microsoft Word" },
     -- { key = "p", app = "PyCharm" },
