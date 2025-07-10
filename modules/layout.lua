@@ -1,5 +1,4 @@
 function applyLayouts(layouts)
-
     for i, layout in ipairs(layouts) do
         if (type(layout.name) == "table") then
             --hs.alert.show("Applying Layout in table")
@@ -9,7 +8,7 @@ function applyLayouts(layouts)
                 -- focus or launch
                 hs.application.launchOrFocus(appName)
                 local app = hs.application.find(appName)
-          
+
                 if (app) then
                     local wins = app:allWindows()
                     local counter = 1
@@ -38,7 +37,7 @@ function applyLayouts(layouts)
             end
         end
     end
- end
+end
 
 function pushCurrent(x, y, w, h)
     local window = hs.window.focusedWindow()
@@ -49,7 +48,7 @@ function pushWindow(window, x, y, w, h)
     local frame = window:frame()
     local screen = window:screen()
     local max = screen:frame()
-  
+
     frame.x = max.x + (max.w * x)
     frame.y = max.y + (max.h * y)
     frame.w = max.w * w
