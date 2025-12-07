@@ -5,7 +5,7 @@ hs.fnutils.each({
     { key = "c", app = "Google Chrome" },
     { key = "d", app = "TickTick" },
     { key = "e", app = "Finder" },
-    { key = "f", app = "sagtjy516" },
+    { key = "f", app = "Lark" },
     { key = "i", app = "IntelliJ IDEA" },
     { key = "j", app = "Activity Monitor" },
     { key = "k", app = "KeePassXC" },
